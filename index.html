@@ -1,0 +1,267 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dheeravath Ramdas — Software Developer Portfolio">
+  <title>Dheeravath Ramdas | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a href="#home" class="logo">DR<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation menu"
+      aria-expanded="false" aria-controls="navLinks">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="themeToggle" class="theme-toggle"
+      type="button" aria-label="Switch to light theme">☀️</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero section" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD! 👋</p>
+        <h1>I'm <span>Dheeravath Ramdas</span></h1>
+        <h2>Aspiring Software Developer</h2>
+        <p class="hero-description">
+          I build practical digital solutions, explore new technologies,
+          and turn ideas into real-world projects.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore Projects ↗</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/dheeravathramdasdheeravathhuss-wq"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="profile-card">
+          <div class="profile-avatar">DR</div>
+          <p class="profile-label">DEVELOPER IN PROGRESS</p>
+          <h3>Learning. Building. Growing.</h3>
+          <p>Java · Web Development · Data Analytics</p>
+          <div class="status"><span></span> Open to learning opportunities</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About <span>Me</span></h2>
+
+      <div class="about-card">
+        <p>
+          Hello! I'm Dheeravath Ramdas, an aspiring software developer
+          interested in programming, web development, data analytics,
+          and cybersecurity.
+        </p>
+        <p>
+          I enjoy learning new technologies, solving problems, and creating
+          applications that address real-world needs. I'm working to improve
+          my coding skills and prepare for software development opportunities.
+        </p>
+
+        <div class="about-facts">
+          <div><strong>01</strong><span>Keep Learning</span></div>
+          <div><strong>02</strong><span>Build Projects</span></div>
+          <div><strong>03</strong><span>Solve Problems</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <p class="section-description">
+        Technologies and tools I'm learning and using in my projects.
+      </p>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Programming</h3>
+          <p>Java, Python, C, JavaScript</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Databases</h3>
+          <p>MongoDB, MySQL</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Data Analytics</h3>
+          <p>Excel, Power BI, Python</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🔐</div>
+          <h3>Cybersecurity</h3>
+          <p>Security fundamentals, Linux, vulnerability assessment learning</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>Developer Tools</h3>
+          <p>Git, GitHub, VS Code</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="eyebrow">WHAT I'VE BEEN BUILDING</p>
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <p class="section-description">
+        Projects exploring software, AI-assisted analysis, and data.
+      </p>
+
+      <div class="filter-buttons" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+        <button class="filter-btn" data-filter="data">Analytics</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" data-category="ai">
+          <div class="project-number">PROJECT 01</div>
+          <div class="project-icon">🌊</div>
+          <h3>AquaSentinel</h3>
+          <p>
+            An AI-assisted marine survey prototype for analyzing side-scan
+            sonar imagery and identifying potential underwater debris
+            and anomalies.
+          </p>
+          <p class="tech-stack">AI Concepts · Computer Vision · Web Development</p>
+          <div class="project-links">
+            <a href="https://aqua-sentinel-d7b3cad8.base44.app"
+               target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-number">PROJECT 02</div>
+          <div class="project-icon">📈</div>
+          <h3>SentiMarket</h3>
+          <p>
+            A media-market correlation prototype exploring how social media
+            sentiment and online hype relate to cryptocurrency prices.
+          </p>
+          <p class="tech-stack">HTML · CSS · JavaScript · Chart.js</p>
+          <div class="project-links">
+            <a href="https://github.com/dheeravathramdasdheeravathhuss-wq"
+               target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="data">
+          <div class="project-number">PROJECT 03</div>
+          <div class="project-icon">📊</div>
+          <h3>Data Analytics Dashboard</h3>
+          <p>
+            A data analytics learning project focused on cleaning data,
+            discovering trends, creating visualizations, and presenting
+            useful insights.
+          </p>
+          <p class="tech-stack">Python · Excel · Power BI</p>
+          <div class="project-links">
+            <a href="https://github.com/dheeravathramdasdheeravathhuss-wq"
+               target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="project-note">
+        Replace placeholder project links with the actual repository URLs
+        when you publish each project.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-container">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <p class="section-description">
+        Interested in collaborating, discussing projects, or sharing
+        learning opportunities? Feel free to reach out.
+      </p>
+
+      <div class="contact-card">
+        <div class="contact-item">
+          <span>✉️</span>
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:YOUR_EMAIL@gmail.com">YOUR_EMAIL@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span>💻</span>
+          <div>
+            <h3>GitHub</h3>
+            <a href="https://github.com/dheeravathramdasdheeravathhuss-wq"
+               target="_blank" rel="noopener noreferrer">Visit my GitHub</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span>🤝</span>
+          <div>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/"
+               target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <a href="#home" class="logo">DR<span>.</span></a>
+    <p>Designed and built by Dheeravath Ramdas</p>
+    <p>© <span id="year"></span> All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
